@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Oriental Basketball Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+
+        header {
+            background: linear-gradient(90deg, #ff0000, #000000);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+
+        .logo img {
+            width: 80px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }
+
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+
+        nav ul li a:hover {
+            color: #ff4d4d;
+        }
+
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+
+        #about {
+            background: url('imagens/fundo.jpg') no-repeat center;
+            background-size: cover;
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px #000;
+            position: relative;
+        }
+
+
+        #about::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 1;
+        }
+
+
+        .about-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+
+        .about-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            color: #ff0000;
+        }
+
+
+        .about-content p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+
+        h1, h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ff0000;
+        }
+
+
+        footer {
+            background: linear-gradient(90deg, #000000, #ff0000);
+            padding: 20px;
+            text-align: center;
+        }
+
+
+        /* Detalhes orientais */
+        h1::before, h2::before {
+            content: "龍";
+            font-size: 20px;
+            margin-right: 10px;
+            color: #ff4d4d;
+        }
+
+
+        /* Media Queries para responsividade */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                padding: 15px;
+            }
+
+
+            .logo img {
+                width: 60px;
+            }
+
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                margin-top: 15px;
+            }
+
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+
+            .about-content h1 {
+                font-size: 2.5rem;
+            }
+
+
+            .about-content p {
+                font-size: 1rem;
+            }
+
+
+            h1, h2 {
+                font-size: 1.8rem;
+            }
+
+
+            section {
+                padding: 30px 15px;
+            }
+        }
+
+
+        @media (max-width: 480px) {
+            .about-content h1 {
+                font-size: 2rem;
+            }
+
+
+            .about-content p {
+                font-size: 0.9rem;
+            }
+
+
+            h1, h2 {
+                font-size: 1.5rem;
+            }
+
+
+            #about {
+                min-height: 60vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="catalogo/Logo.jpg" alt="Logo of the Store" id="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.index.html">Catalog</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="about">
+        <div class="about-content">
+            <h1>About Us</h1>
+            <p>At Oriental Casa dp Japonês, we are passionate about blending the dynamic world of basketball with the timeless elegance of Eastern culture. Our mission is to bring you unique products that celebrate the strength, discipline, and beauty of the Orient.</p>
+            <p>Founded in 2025, our store was born from a love for basketball and a deep appreciation for Japanese traditions. We draw inspiration from the resilience of the samurai, the serenity of cherry blossoms, and the vibrant energy of the Torii gates. Each product in our collection is designed to reflect this fusion, offering you style and performance on and off the court.</p>
+            <p>Join us on this journey as we bridge two worlds, creating a community where basketball enthusiasts and lovers of Eastern culture can come together. Welcome to Oriental Basketball Store – where tradition meets the game.</p>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>© 2025 Oriental =Casa do Japonêss. All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
