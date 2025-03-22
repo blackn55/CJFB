@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oriental Basketball Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+
+        header {
+            background: linear-gradient(90deg, #ff0000, #000000);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+
+        .logo img {
+            width: 80px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }
+
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+
+        nav ul li a:hover {
+            color: #ff4d4d;
+        }
+
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+
+        #home {
+            background: url('https://static.vecteezy.com/ti/vetor-gratis/p1/6230864-fundo-de-elemento-de-estilo-japones-vetor.jpg') no-repeat center;
+            background-size: cover;
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px #000;
+            position: relative;
+        }
+
+
+        #home::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 1;
+        }
+
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            color: #ff0000;
+        }
+
+
+        .hero-content p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+
+        .cta-button {
+            background: linear-gradient(90deg, #ff0000, #ff4d4d);
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: background 0.3s;
+        }
+
+
+        .cta-button:hover {
+            background: linear-gradient(90deg, #ff4d4d, #ff0000);
+        }
+
+
+        h1, h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ff0000;
+        }
+
+
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+
+        .produto {
+            background-color: #000;
+            padding: 20px;
+            border: 2px solid #ff0000;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+            flex: 1 1 200px;
+            max-width: 100%;
+        }
+
+
+        .produto img {
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+
+        .produto p {
+            font-size: 16px;
+            color: #fff;
+        }
+
+
+        footer {
+            background: linear-gradient(90deg, #000000, #ff0000);
+            padding: 20px;
+            text-align: center;
+        }
+
+
+        /* Detalhes orientais */
+        h1::before, h2::before {
+            content: "龍";
+            font-size: 20px;
+            margin-right: 10px;
+            color: #ff4d4d;
+        }
+
+
+        /* Media Queries para responsividade */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                padding: 15px;
+            }
+
+
+            .logo img {
+                width: 60px;
+            }
+
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                margin-top: 15px;
+            }
+
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+
+            .hero-content p {
+                font-size: 1.2rem;
+            }
+
+
+            .cta-button {
+                padding: 10px 20px;
+                font-size: 1rem;
+            }
+
+
+            h1, h2 {
+                font-size: 1.8rem;
+            }
+
+
+            section {
+                padding: 30px 15px;
+            }
+
+
+            .produto {
+                width: 45%;
+            }
+        }
+
+
+        @media (max-width: 480px) {
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+
+            .hero-content p {
+                font-size: 1rem;
+            }
+
+
+            h1, h2 {
+                font-size: 1.5rem;
+            }
+
+
+            .produto {
+                width: 100%;
+            }
+
+
+            #home {
+                min-height: 60vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="catalogo/Logo.jpg" alt="Store Logo" id="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="cta-button">Home</a></li>
+                <li><a href="catalog.index.html" class="cta-button">Catalog</a></li>
+                <li><a href="about.html" class="cta-button">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="home">
+        <div class="hero-content">
+            <h1>Oriental Casa do Japonês</h1>
+            <p>Explore the best of basketball with a touch of Eastern elegance.</p>
+            <a href="catalog.index.html" class="cta-button">View Catalog</a>
+        </div>
+    </section>
+
+
+    <section id="catalogo">
+        <h2>Featured Products</h2>
+        <div class="produtos">
+            <div class="produto">
+                <img src="https://static.lojanba.com/produtos/bermuda-new-era-performance-los-angeles-lakers-core-nba/30/BRJ-6337-030/BRJ-6337-030_zoom1.jpg?ts=1730481620&ims=1088x" alt="Basketball Sneakers">
+                <p>Los Angeles Lakers New Era Performance Shorts - R$ 159,90</p>
+            </div>
+            <div class="produto">
+                <img src="https://static.lojanba.com/produtos/tenis-under-armour-curry-splash-24-masculino/78/R5M-1877-978/R5M-1877-978_zoom1.jpg?ts=1737136382&ims=1088x" alt="Lakers Shorts">
+                <p>Under Armour Curry Splash Sneakers - R$ 539,90</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contato">
+        <h2>Contact</h2>
+        <p>Email: contact@orientalbasketballstore.com</p>
+        <p>Phone: +55 (11) 99999-9999</p>
+    </section>
+
+
+    <footer>
+        <p>© 2025 Oriental Basketball Store. All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
