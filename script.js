@@ -1,6 +1,6 @@
 // Product List
 const products = [
-    { id: 1, name: "Golden State Warriors NBA Jersey", price: 254.99, image: "https://static.lojanba.com/produtos/regata-nba-golden-state-warriors-nike-swingman-unissex/58/JD8-6355-058/JD8-6355-058_zoom1.jpg?ts=1712252137&ims=1088x" },
+    { id: 1, name: "Golden State Warriors NBA ", price: 254.99, image: "https://static.lojanba.com/produtos/regata-nba-golden-state-warriors-nike-swingman-unissex/58/JD8-6355-058/JD8-6355-058_zoom1.jpg?ts=1712252137&ims=1088x" },
     { id: 2, name: "Los Angeles Lakers NBA Jersey", price: 254.90, image: "https://static.lojanba.com/produtos/regata-nba-los-angeles-lakers-lebron-james-n-23-nike-masculina/66/2IC-8879-166/2IC-8879-166_zoom5.jpg?ts=1709657312&ims=1088x" },
     { id: 3, name: "Memphis Grizzlies NBA Jersey", price: 254.90, image: "https://static.lojanba.com/produtos/regata-nba-memphis-grizzlies-ja-morant-n-12-nike-masculina/69/2IC-8862-C69/2IC-8862-C69_zoom1.jpg?ts=1702655471&ims=1088x" },
     { id: 4, name: "Miami Heat NBA Jersey", price: 254.90, image: "https://static.lojanba.com/produtos/regata-nba-miami-heat-jimmy-butler-n-22-nike-masculina/78/2IC-8896-178/2IC-8896-178_zoom1.jpg?ts=1709657380&ims=1088x" },
