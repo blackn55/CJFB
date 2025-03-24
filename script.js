@@ -18,7 +18,7 @@ const products = [
     { id: 16, name: "Chinela 5-AFRICAN LORE", price: 539.90, image: "https://static.lojanba.com/produtos/tenis-under-armour-curry-splash-24-masculino/78/R5M-1877-978/R5M-1877-978_zoom1.jpg?ts=1737136382&ims=1088x" },
     { id: 17, name: "Shing Ling ONE-PASTEL DE FLANGO", price: 539.90, image: "https://static.lojanba.com/produtos/tenis-zen-vi-361-basquete-masculino/78/FAZ-0216-178/FAZ-0216-178_zoom1.jpg?ts=1739873721&ims=1088x" },
     { id: 18, name: "Tigas 9-FORTUNE TIGER", price: 539.90, image: "https://www.wayofwade.com/cdn/shop/files/1_aeca4784-dad2-4a6f-9834-a4e106860aee.jpg?v=1719988121&width=600" },
-    { id: 19, name: "GOAT 200-EQUALITY", price: 539.90, image: "https://imgnike-a.akamaihd.net/360x360/02945915A1.jpg" },
+    { id: 19, name: "GOAT 200-CLOUDS", price: 539.90, image: "https://imgnike-a.akamaihd.net/360x360/02945915A1.jpg" },
 
 ];
 
