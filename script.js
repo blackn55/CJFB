@@ -1,6 +1,6 @@
 // Product List
 const products = [
-    { id: 1, name: "Golden State Warriors NBA ", price: 254.99, image: "https://static.lojanba.com/produtos/regata-nba-golden-state-warriors-nike-swingman-unissex/58/JD8-6355-058/JD8-6355-058_zoom1.jpg?ts=1712252137&ims=1088x" },
+    { id: 1, name: "Golden State Warriors NBA Jersey", price: 254.99, image: "https://static.lojanba.com/produtos/regata-nba-golden-state-warriors-nike-swingman-unissex/58/JD8-6355-058/JD8-6355-058_zoom1.jpg?ts=1712252137&ims=1088x" },
     { id: 2, name: "Los Angeles Lakers NBA Jersey", price: 254.90, image: "https://static.lojanba.com/produtos/regata-nba-los-angeles-lakers-lebron-james-n-23-nike-masculina/66/2IC-8879-166/2IC-8879-166_zoom5.jpg?ts=1709657312&ims=1088x" },
     { id: 3, name: "Memphis Grizzlies NBA Jersey", price: 254.90, image: "https://static.lojanba.com/produtos/regata-nba-memphis-grizzlies-ja-morant-n-12-nike-masculina/69/2IC-8862-C69/2IC-8862-C69_zoom1.jpg?ts=1702655471&ims=1088x" },
     { id: 4, name: "Miami Heat NBA Jersey", price: 254.90, image: "https://static.lojanba.com/produtos/regata-nba-miami-heat-jimmy-butler-n-22-nike-masculina/78/2IC-8896-178/2IC-8896-178_zoom1.jpg?ts=1709657380&ims=1088x" },
@@ -14,12 +14,12 @@ const products = [
     { id: 12, name: "Black NBA Basketball School Crew Socks", price: 14.90, image: "https://acdn-us.mitiendanube.com/stores/001/722/190/products/28c94f5afe690f8216ce102d8c6efad2-02fb6273614a054d7417411750336450-1024-1024.webp" },
     { id: 13, name: "Blue NBA Basketball School Crew Socks", price: 14.90, image: "https://acdn-us.mitiendanube.com/stores/001/722/190/products/070795575d573e326e59d0ed50c220cb-49d7bf0a37c469163317411750293206-1024-1024.webp" },
     { id: 14, name: "White NBA Basketball School Crew Socks", price: 14.90, image: "https://acdn-us.mitiendanube.com/stores/001/722/190/products/29503e33f98c0fdbeced3f5a9c2d3014-1467f030fde40da46e17411750248120-1024-1024.webp" },
-    { id: 15, name: "Nike Jordan Tatum Sneakers", price: 539.90, image: "https://static.lojanba.com/produtos/tenis-nike-jordan-tatum-3-masculino/44/JD8-9211-144/JD8-9211-144_zoom1.jpg?ts=1735566398&ims=1088x" },
-    { id: 16, name: "Under Armour Curry Splash Sneakers", price: 539.90, image: "https://static.lojanba.com/produtos/tenis-under-armour-curry-splash-24-masculino/78/R5M-1877-978/R5M-1877-978_zoom1.jpg?ts=1737136382&ims=1088x" },
-    { id: 17, name: "ZEN VI 361° Sneakers", price: 539.90, image: "https://static.lojanba.com/produtos/tenis-zen-vi-361-basquete-masculino/78/FAZ-0216-178/FAZ-0216-178_zoom1.jpg?ts=1739873721&ims=1088x" },
-    { id: 18, name: "Wade 808 4 Ultra Sneakers", price: 539.90, image: "https://www.wayofwade.com/cdn/shop/files/1_aeca4784-dad2-4a6f-9834-a4e106860aee.jpg?v=1719988121&width=600" },
-    { id: 19, name: "Air Jordan XXXIX Men’s Sneakers", price: 539.90, image: "https://imgnike-a.akamaihd.net/360x360/02945915A1.jpg" },
-    { id: 20, name: "Nike Jordan Official Basketball", price: 99.90, image: "https://sportset.com.br/wp-content/uploads/2022/06/20253c3a27624bf71dbcc4c5624fff88.jpeg" }
+    { id: 15, name: "João 3-LIGHT GREEN", price: 539.90, image: "https://static.lojanba.com/produtos/tenis-nike-jordan-tatum-3-masculino/44/JD8-9211-144/JD8-9211-144_zoom1.jpg?ts=1735566398&ims=1088x" },
+    { id: 16, name: "Chinela 5-AFRICAN LORE", price: 539.90, image: "https://static.lojanba.com/produtos/tenis-under-armour-curry-splash-24-masculino/78/R5M-1877-978/R5M-1877-978_zoom1.jpg?ts=1737136382&ims=1088x" },
+    { id: 17, name: "Shing Ling ONE-PASTEL DE FLANGO", price: 539.90, image: "https://static.lojanba.com/produtos/tenis-zen-vi-361-basquete-masculino/78/FAZ-0216-178/FAZ-0216-178_zoom1.jpg?ts=1739873721&ims=1088x" },
+    { id: 18, name: "Tigas 9-FORTUNE TIGER", price: 539.90, image: "https://www.wayofwade.com/cdn/shop/files/1_aeca4784-dad2-4a6f-9834-a4e106860aee.jpg?v=1719988121&width=600" },
+    { id: 19, name: "GOAT 200-EQUALITY", price: 539.90, image: "https://imgnike-a.akamaihd.net/360x360/02945915A1.jpg" },
+
 ];
 
 // Shopping Cart
